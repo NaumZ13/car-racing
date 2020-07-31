@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Car racing game</title>
+	<meta name="keywords" content="html,css,lekcii">
+	<meta name="description" content="ova e strana za ucenje">
+	<meta name="author" content="Kristijan Bobevski">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body id="race">
+
+	<h1>Car racing game</h1>
+	<div id="counter"></div>
+
+	<button id="start-race" class="btn btn-default"> Race! </button>
+	<button id="start-over" class="btn btn-default">Start Over </button>
+	<div id="race-track">
+		<div id="flag">
+			<img src="finish.gif" alt="">
+		</div>
+
+		<img src="car1.gif" alt="" width="" id="car1" class="car">
+		<img src="car2.gif" alt="" id="car2" class="car">
+
+	</div>
+	<div id="raceInfoContainer" class="clearfix">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-6">
+					<h2>Results</h2>
+					<div class="col-md-6">
+						<table class="tableOne">
+							<th class="text-center carOne">Car 1</th>
+						</table>
+					</div>
+					<div class="col-md-6">
+						<table class="tableTwo">
+							<th class="text-center carTwo">Car 2</th>
+						</table>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="previous-results">
+						<table class="previous-results-table">
+							<th class="previous-results-th">Results from the previous time you played this game:</th>
+						</table>
+					</div>
+				</div>
+				<div class="row">
+				</div>
+			</div> 
+		</div>
+
+
+
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+
+		<script src="app.js"></script>
+
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+
+</html>
